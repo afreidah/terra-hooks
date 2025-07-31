@@ -1,0 +1,5 @@
+- id: terraform-test
+  name: Run terraform test
+  entry: .pre-commit-hooks/terraform-test.sh
+  language: script
+  types: [terraform, hcl]
